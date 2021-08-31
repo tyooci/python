@@ -1,4 +1,4 @@
-def leap_year(year: int) -> bool:
+def leap_year(year: int)
     """
     :rtype: bool
     :param year
@@ -14,13 +14,13 @@ def leap_year(year: int) -> bool:
         return False
 
 
-def days_in_month(year: str, month: str) -> str or int:
+def days_in_month(year: str, month: str)
     """
     
     :rtype: str or int
     :param year:
     :param month:
-    :return: A quantidade de dias no mês do ano correspondente. Caso o ano seja bissexto, adiciona 1 dia em fevereiro
+    :return: Quantidade de dias no mês do ano correspondente. Caso o ano seja bissexto, adiciona 1 dia em fevereiro
     """
     month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     if not year.isnumeric() or not month.isnumeric():
@@ -43,5 +43,3 @@ user_year = input('Digite o ano: ')
 user_month = input('Digite o mês: ')
 days = days_in_month(user_year, user_month)
 print(f'{days}')
-
-leap_year(200)
