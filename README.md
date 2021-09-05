@@ -1,3 +1,3 @@
 # python
 some cool projects
-language (pt/br) -> main (eng)
+language (pt/br) -> main / (eng)
