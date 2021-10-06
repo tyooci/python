@@ -13,7 +13,7 @@ class User:
         print(f'ID: {self.id}\nUSERNAME: {self.username}')
 
 
-# __init__() é útil quando é necessário criar vários objetos que possuem os mesmos atributos (menos reduntante), como por exemplo:
+# __init__() é útil quando é necessário criar vários objetos que possuem os mesmos atributos (menos redundante), como por exemplo:
 define_user_1 = User(100, 'Chaeyoung')
 define_user_1.shows_user_data()
 define_user_2 = User(101, 'Mina')
